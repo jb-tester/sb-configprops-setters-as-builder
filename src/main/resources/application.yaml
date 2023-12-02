@@ -1,0 +1,13 @@
+my:
+  nolombok:
+    props:
+      prop0: nolombok builder setter - str
+      nested-pojo:
+        inner-prop: nolombok builder setter - inner pojo prop
+      prop3: true
+  lombok:
+    props:
+      nested-enum: first
+      prop1: str with lombok annotation
+  lombokconfig:
+    prop: str with lombok.config
