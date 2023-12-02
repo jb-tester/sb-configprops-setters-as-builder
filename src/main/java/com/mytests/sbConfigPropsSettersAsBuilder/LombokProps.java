@@ -12,17 +12,17 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("my.lombok.props")
 public class LombokProps {
     /**
-     * prop 1 is a string setting
+     * string prop1: lombok, annotation
      */
     String prop1;
 
     /**
-     * number 2 is a number setting
+     * int number1:  lombok, annotation
      */
     int number2;
 
     /**
-     * This setting which controls the speed of execution
+     * nested enum:  lombok, annotation
      */
     NestedEnum nestedEnum;
 

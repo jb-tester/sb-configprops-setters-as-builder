@@ -8,5 +8,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("my.lombokconfig")
 @Component
 public class LombokPropsWithConfig {
+    /**
+     * string prop: lombok, lombok.config
+     */
     String prop;
 }
